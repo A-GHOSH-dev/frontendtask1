@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<!--lang tag, html tag open-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aalap Bhakta - Portflio</title>
+   <!--THIS IS INTERNAL CSS- to address the class name, in css we put a . an then the class name like - .topnav{ here we write the css property and value}-->
+    <style>
+        /*gives style to whole <body> of html*/
+        body {
+            /*margin of page*/
+          margin: 0;
+          padding: 10px;
+          /*using a font family for the writings in html*/
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        /*style for html body elements with class name topnav*/
+        .topnav {
+            /*overflow means when we allow the scroll bar to move horizontally and vertically freely even if there is no elements of html;;;;;so we stop that here, so no extra while space is available horizontally or vertically*/
+          overflow: hidden;
+          /*padding means spacing (here i gave paddding top and bottom*/
+         padding-top: 20px;
+         padding-bottom: 20px;
+          background-color: rgb(0, 0, 0);
+        }
+        /*styling for <a> tagged element in topnav class named element*/
+        .topnav a {
+          
+          color: #f2f2f2;
+
+          text-align: center;
+          
+          padding: 25px 16px;
+          /*to remove the hyperlink underline*/
+          text-decoration: none;
+          font-size: 20px;
+        }
+        
+        .topnav a:hover {
+          background-color: rgb(255, 255, 255);
+          color: black;
+        }
+        table, th, td{
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        
+        
+        </style>
+</head>
+<body>
+
+    <!---Made an div (div tag (division)) | 
+        defined a class with name topnav | 
+        used internal css above in style tag | 
+    css is connected to each element of html like div, h, p, a through the class |
+used a tag to link the nav bar elements with the body elements for smooth scroll on clicking;;;Did this by giving distinguished id to the body elements and then using href to link the elements with navbar elements | 
+-->
+    <div class="topnav">
+        <a href="#home">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#edu">Education</a>
+        <a href="#exp">Experience</a>
+        <a href="#ach">Achievements</a>    
+        <a href="#contact">Contact</a>
+      </div>
+     <!--home--> 
+      <div style="background-color: rgb(122, 219, 248); padding: 50px; font-size: 50px;font-weight: bolder;">
+        <img src="photos/aalap.png" style="float: right; padding: 0;" width="400px" alt="aalap">
+        <p>Hello!!</p>
+        <p>I am Aalap Bhakta</p>
+        <p>STUDENT 3rd YEAR CSE</p>
+        <button style="border-width: 4px; border: solid; border-color: blue; background-color: rgb(255, 255, 255); font-size: 22px;">Hire me for projects</button>
+        <button style="border-width: 4px; border: solid; border-color: blue; background-color: rgb(255, 255, 255); font-size: 22px;">Download my Resume</button>
+    </div> 
+    <!--ABOUT-->
+    <div id="about" style="padding: 30px; font-size: 25px; text-align: center;">
+        
+        <b><h2>About Me</h2></b>
+        <p style="text-align: justify; padding: 20px;">I am Aalap Bhakta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?debitis mollitia voluptatem debitis mollitiatempore omnis oluptatem debitis mollitia.</p>
+        
+        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 233, 199); font-size: 22px;">GitHub</button>
+        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 196, 233); font-size: 22px;">LinkedIn</button>
+        <button style="border-width: 4px; border: solid;  background-color: rgb(159, 132, 233); font-size: 22px;">Instagram</button>
+    </div> 
+    <!--skills-->
+    <b><h2 style="padding: 30px; font-size: 35px; text-align: center; ">My Skills</h2></b>
+    <div id="skills" style="padding: 30px; font-size: 25px;  background-color:rgb(108, 235, 240); color: #080808; width: 45%;float: left;">
+        
+        
+        <p>
+            <h3>Technical Skills</h3>
+        <ol>
+            <li style="padding: 10px;">
+                C/C++
+            </li>
+            <li style="padding: 10px;">
+                Web Development
+            </li>
+            <li style="padding: 10px;">
+                Project Management
+            </li>
+            <li style="padding: 10px;">
+                Java (GUI Application)
+            </li>
+            <li style="padding: 10px;">
+                Python
+            </li>
+            <li style="padding: 10px;">
+                Machine Learning
+            </li>
+            <li style="padding: 10px;">
+                Arduino & Sensors
+            </li>
+            <li style="padding: 10px;">
+                Event Management
+            </li>
+            <li style="padding: 10px;">
+                DBMS
+            </li>
+            <li style="padding: 10px;">
+                DSA
+            </li>
+            
+        </ol>
+        
+        </p>
+        
+        
+    </div> 
+    <div style="padding: 30px; font-size: 25px;  background-color:rgb(213, 183, 248); color: #080808; width: 45%; float: right;">
+        
+        
+        <p>
+            <h3>Soft Skills</h3>
+        <ol>
+            <li style="padding: 10px;">
+               Hardworking
+            </li>
+            <li style="padding: 10px;">
+                Good Leader
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            <li style="padding: 10px;">
+                Team Worker
+            </li>
+            
+        </ol>
+        
+        </p>
+        
+        
+    </div>
+    <!--Projects-->
+    <div id="projects" style="padding: 30px; font-size: 25px; text-align: center;">
+        
+        <b><h2>My Projects</h2></b>
+        <p >
+            <table style="text-align: justify; padding: 20px; float: inherit; " >
+            <col style="width:30%;">
+            <col style="width:70%">
+
+            <tr style="background-color: rgb(129, 219, 247);">
+                <th>Year</th>
+                <th>Project Detail</th>
+            </tr>
+            <tr>
+                <td>2018</td>
+                <td>Environmental Disasters- Causes, Management and Mitigation; Case study- Bhopal Gas Tragedy</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Hackoff 3.0-Web Development project (Concept: Women Empowerment)</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Past Vs. Present Leaders- Debate</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Nutritional Deficiencies in Plants- Case study on 5 angiospermic plants</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Environmental Hazards due to huge sureg in Bio-medical Waste during COVID-19</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Research Paper- AI in Healthcare Industry (To be published in January 2021)</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Survey, Report and Proposal- Stress faced by college students</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Business Model Presentation Development for HULT PRIZE-On Campus (Topic: Food for Good)</td>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>Industrial Pipeline Corrosion and its control</td>
+            </tr>
+
+
+        </table></p>
+        
+        <button style="border-width: 4px; border: solid;  background-color: rgb(164, 205, 224); font-size: 22px;">See More.....</button>
+        
+    </div> 
+    <!--education-->
+    <div id="edu" style="float: left; width: 45%; padding: 20px; background-color: rgb(204, 248, 193); height: 850px;">
+        
+            <b><h2>Education and Experience</h2></b>
+        
+                    <h2>Experiences</h2>
+                    <div>
+                        <p><span>Jan 2021 - Present</span></p>
+                        <h4>IEEE Women In Engineering, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div>
+                        <p><span>Jan 2021 - Present</span></p>
+                        <h4>IEEE Signal Processing Society, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>May 2021 - Present</span></p>
+                        <h4>IEEE Proffessional Communication Society, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>Jan 2021 - Present</span></p>
+                        <h4>SEDS, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>Jan 2021 - Present</span></p>
+                        <h4>Institution of Engineering and Technology, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>Jan 2021 - Present</span></p>
+                        <h4>Energy and Environment Protection Club, VIT</h4>
+                        <p>Core Committee Member</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>Jan 2021 - March 2021</span></p>
+                        <h4>Team UAV, VIT</h4>
+                        <p>CS & Avionics Department</p>
+                    </div>
+                </div>
+
+
+                <div style="float: right; width: 45%; background-color: rgb(204, 247, 234); padding: 20px; height: 850px;">
+                    <h2>Education</h2>
+                    <div class="life-single">
+                        <p><span>2020-2025</span></p>
+                        <h4>Vellore Institute of Technology</h4>
+                        <p>Integrated M Tech in Computer Science and Engineering in collaboration with VIRTUSA</p>
+                        <p>Vellore, Tamil Nadu, India</p>
+                    </div>
+
+                    <div class="life-single">
+                        <p><span>2018 – 2020</span></p>
+                        <h4>Delhi Public School, Ruby Park</h4>
+                        <p>AISSCE CBSE ( 10+2 )</p>
+                        <p>PCMB</p>
+                        <p>Grade: 94%</p>
+                        <p>Kolkata, West Bengal, India</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>2018 – 2020</span></p>
+                        <h4>G.D. Birla Center for Education</h4>
+                        <p>ICSE (10)</p>
+                        
+                        <p>Grade: 96%</p>
+                        <p>Kolkata, West Bengal, India</p>
+                    </div>
+                    <div class="life-single">
+                        <p><span>2021 – Present</span></p>
+                        <h4>LetsGrowMore</h4>
+                        <p>Web Development Intern</p>
+                        
+                        
+                    </div>
+                    <div class="life-single">
+                        <p><span>2021 – Present</span></p>
+                        <h4>International MUN</h4>
+                        <p>Official Campus Ambassaor</p>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!-- life history end -->
+</body>
+</html>
