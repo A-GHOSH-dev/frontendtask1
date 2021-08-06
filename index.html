@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aalap Bhakta - Portflio</title>
+    <title>Ananya Ghosh - Portflio</title>
    <!--THIS IS INTERNAL CSS- to address the class name, in css we put a . an then the class name like - .topnav{ here we write the css property and value}-->
     <style>
         /*gives style to whole <body> of html*/
@@ -37,16 +37,38 @@
           text-decoration: none;
           font-size: 20px;
         }
-        
+        /*what happens when we hover on the topnav element- changes background to white, and text colour to black*/
         .topnav a:hover {
           background-color: rgb(255, 255, 255);
           color: black;
         }
+        /*border width(1px), type of border(solid), border colour (black)*/
         table, th, td{
             border: 1px solid black;
             padding: 20px;
         }
+        div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 220px;
+}
 
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 150px;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+       
         
         
         </style>
@@ -69,23 +91,37 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
         <a href="#contact">Contact</a>
       </div>
      <!--home--> 
-      <div style="background-color: rgb(122, 219, 248); padding: 50px; font-size: 50px;font-weight: bolder;">
-        <img src="photos/aalap.png" style="float: right; padding: 0;" width="400px" alt="aalap">
-        <p>Hello!!</p>
-        <p>I am Aalap Bhakta</p>
-        <p>STUDENT 3rd YEAR CSE</p>
-        <button style="border-width: 4px; border: solid; border-color: blue; background-color: rgb(255, 255, 255); font-size: 22px;">Hire me for projects</button>
-        <button style="border-width: 4px; border: solid; border-color: blue; background-color: rgb(255, 255, 255); font-size: 22px;">Download my Resume</button>
+      <div style="background-color: rgb(133, 230, 236); padding: 50px; font-size: 50px;font-weight: bolder;">
+        <img src="photos/me.gif" style="float: right; padding: 0;" width="500px" height="480px" alt="aalap">
+        <p> Hello World!! </p>
+        <p>I am Ananya Ghosh</p>
+        <p>Student 2nd Year CSE</p>
+        <button style="border-width: 4px; border: solid; border-color: rgb(0, 217, 255); background-color: rgb(255, 255, 255); font-size: 22px;">Hire me for projects</button>
+        <button style="border-width: 4px; border: solid; border-color: rgb(0, 217, 255); background-color: rgb(255, 255, 255); font-size: 22px;">Download my Resume</button>
     </div> 
     <!--ABOUT-->
     <div id="about" style="padding: 30px; font-size: 25px; text-align: center;">
         
         <b><h2>About Me</h2></b>
-        <p style="text-align: justify; padding: 20px;">I am Aalap Bhakta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?debitis mollitia voluptatem debitis mollitiatempore omnis oluptatem debitis mollitia.</p>
+        <p style="text-align: justify; padding: 20px;">First Year Student pursuing <b>Int. M Tech in CSE at VIT, Vellore</b>. Passionate about <b>Python</b>,
+            <b>C</b> and <b>C++</b> with an intense learning aptitude in coding techniques. 
+            Sincere, hard-smart working. Passionate to dwell deep into the world of <b>AI & Robotics</b> and <b>AR/VR </b>to learn
+            and create.
+            I have experience in <b>web development</b> and designing alongwith <b>UI/UX, Augmented Reality, Open CV, ML, IoT.</b>
+            I am highly passionate to learn <b>Robotics, Blockchain, BigData and
+                DataScience</b>.
+            I want to create something that impacts millions of lives positively.
+            I am interested to learn <b>competitive coding</b> as well. I have also explored <b>App
+                development</b>.
+            I am experienced in <b>Comprehensive Business Development</b> as well. I can write <b>Research
+                papers</b> and <b>Technical Proposals</b>.
+            <b>Environment, Health and Safety</b> enthusiast. Highly Interested in <b>Space Science</b> as well. </p>
         
-        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 233, 199); font-size: 22px;">GitHub</button>
-        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 196, 233); font-size: 22px;">LinkedIn</button>
-        <button style="border-width: 4px; border: solid;  background-color: rgb(159, 132, 233); font-size: 22px;">Instagram</button>
+        <a href="https://github.com/A-GHOSH-dev"><button style="border-width: 4px; border: solid;  background-color: rgb(132, 230, 233); font-size: 22px;">GitHub</button></a>
+        <a href="https://www.linkedin.com/in/ananya-ghosh-739b561b8"><button style="border-width: 4px; border: solid;  background-color: rgb(132, 196, 233); font-size: 22px;">LinkedIn</button> </a>
+        <a href="an_g0001"><button style="border-width: 4px; border: solid;  background-color: rgb(159, 132, 233); font-size: 22px;">Instagram</button></a>
+        <a href="photos/cv.pdf"><button style="border-width: 4px; border: solid;  background-color: rgb(216, 156, 240); font-size: 22px;">Resume</button></a>
+        <a href="https://medium.com/@ananyaghosh00164"><button style="border-width: 4px; border: solid;  background-color: rgb(156, 234, 240); font-size: 22px;">Medium</button></a>
     </div> 
     <!--skills-->
     <b><h2 id="skills" style="padding: 30px; font-size: 35px; text-align: center; ">My Skills</h2></b>
@@ -95,35 +131,59 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
         <p>
             <h3>Technical Skills</h3>
         <ol>
+
+
+           
+           
+          
+            
+
+
+
             <li style="padding: 10px;">
-                C/C++
+                Web Development - HTML, CSS, Js
             </li>
             <li style="padding: 10px;">
-                Web Development
+               React Js
             </li>
             <li style="padding: 10px;">
-                Project Management
+                Arduino & Sensors - IOT
             </li>
             <li style="padding: 10px;">
-                Java (GUI Application)
+                Python, C
             </li>
             <li style="padding: 10px;">
-                Python
+                Flask, Django
+            </li>
+            <li style="padding: 10px;">
+                Augmented Reality - Unity 3D, Vuforia, C#
             </li>
             <li style="padding: 10px;">
                 Machine Learning
             </li>
             <li style="padding: 10px;">
-                Arduino & Sensors
+                Open CV
             </li>
             <li style="padding: 10px;">
-                Event Management
+                App Development - MIT App Inventor
             </li>
             <li style="padding: 10px;">
-                DBMS
+                UI/UX - Figma, Canva
+                
+    
             </li>
             <li style="padding: 10px;">
-                DSA
+                Data Structures & Algorithms
+                
+            </li>
+            <li style="padding: 10px;">
+               
+                ChatBot- Google DialogueFlow
+                
+            </li>
+            <li style="padding: 10px;">
+               
+                Technical Research
             </li>
             
         </ol>
@@ -136,38 +196,56 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
         
         
         <p>
-            <h3>Soft Skills</h3>
+            <h3>Managerial and Soft Skills</h3>
         <ol>
+            
+
+
+
+
+
+
+
             <li style="padding: 10px;">
-               Hardworking
+                Business Model Development and Pitching
             </li>
             <li style="padding: 10px;">
-                Good Leader
+                Marketing & Sponsorship
+            </li>
+            <li style="padding: 10px;">
+                Presentation Development
+            </li>
+            <li style="padding: 10px;">
+                Project Management
+            </li>
+            <li style="padding: 10px;">
+                Leadership Skills
+            </li>
+            <li style="padding: 10px;">
+                Good Communication skills
+            </li>
+            <li style="padding: 10px;">
+                Strategic Planning
+            </li>
+            <li style="padding: 10px;">
+                Public Speaking
+            </li>
+            <li style="padding: 10px;">
+                Networking
             </li>
             <li style="padding: 10px;">
                 Team Worker
             </li>
             <li style="padding: 10px;">
-                Team Worker
+                Diligent, hard-smart Working
             </li>
             <li style="padding: 10px;">
-                Team Worker
+                Problem-solver
             </li>
             <li style="padding: 10px;">
-                Team Worker
+                Creative and flexible
             </li>
-            <li style="padding: 10px;">
-                Team Worker
-            </li>
-            <li style="padding: 10px;">
-                Team Worker
-            </li>
-            <li style="padding: 10px;">
-                Team Worker
-            </li>
-            <li style="padding: 10px;">
-                Team Worker
-            </li>
+            
             
         </ol>
         
@@ -182,11 +260,105 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
         
         <b><h2 id="projects" >My Projects</h2></b>
         <p >
+
+            <div class="gallery">
+                <a target="_blank" href="https://youtu.be/43FutdjrHhE">
+                  <img src="photos/g1.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">Eduvision</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/orM0XbbdUcI">
+                  <img src="photos/g2.jpg.png" alt="Forest" width="600" height="400">
+                </a>
+                <div class="desc">Donation</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/mkJ4upvsbBM">
+                  <img src="photos/g3.jpg.png" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">KrishiSahayak</div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/OVItlA8KBHg">
+                  <img src="photos/g4.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">SmartDustbin</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/dwT5WjnWnhk">
+                  <img src="photos/g5.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">SnakeGame</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/OVItlA8KBHg">
+                  <img src="photos/g6.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Elevator</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="https://youtu.be/uNwJCJb5QhI">
+                  <img src="photos/g7.png" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Alive</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="">
+                  <img src="photos/g8.png" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">Technova</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="img_mountains.jpg">
+                  <img src="photos/hackx logo.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">HACKX</div>
+              </div>
+              <div class="gallery">
+                <a target="_blank" href="https://a-ghosh-dev.github.io/portfolio/">
+                  <img src="photos/g9.png" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">PORTFOLIO</div>
+              </div>
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             <table style="text-align: justify; padding: 20px; float: inherit; " >
             <col style="width:30%;">
             <col style="width:70%">
 
-            <tr style="background-color: rgb(129, 219, 247);">
+            <tr style="background-color: rgb(175, 210, 238);">
                 <th>Year</th>
                 <th>Project Detail</th>
             </tr>
@@ -222,10 +394,99 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
                 <td>2020</td>
                 <td>Business Model Presentation Development for HULT PRIZE-On Campus (Topic: Food for Good)</td>
             </tr>
+
+
+
+
+
+
+
+
+
+
             <tr>
-                <td>2020</td>
-                <td>Industrial Pipeline Corrosion and its control</td>
+                <td>2021</td>
+                <td>EduVision - AR based Education for All while
+connecting all stake holders of Education
+(AR+Web Dev <br>https://youtu.be/43FutdjrHhE)
+</td>
             </tr>
+            <tr>
+                <td>2021</td>
+                <td>Donation and Vaccine- WebApp and chatbot for
+                    organ, plasma and blood donation and COVID19 vaccine program registration. (Web Dev
+                    <br>https://youtu.be/orM0XbbdUcI)</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>KrishiSahayak- WebApp to connect all the stake
+                    holders of the Agriculture system in India – The
+                    Farmers, The Consumers, The Corporates /
+                    Food Consultant / NGO (Web Dev, Django backend
+                    <br>https://youtu.be/mkJ4upvsbBM)
+                    </td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Snake Game- Arduino, 8X8 LED matrix, joystick
+                    <br>(https://youtu.be/OVItlA8KBHg)
+                    </td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Smart Dustbin- Arduino, Servo Motor, Ultrasonic
+                    sensor <br>(https://youtu.be/dwT5WjnWnhk)
+                    </td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Elevator system- With scheduling to move on
+                    closest floor for every button pushed (Arduino,
+                    Stepper Motor, Motor Driver)
+                    </td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Portfolio Website- Web Dev
+                    <br>(https://youtu.be/_sg0QkQsZFk)</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Fuel Consumption CO2 Emission- ML Linear
+                    regression</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Iris Species Prediction- ML KNN classification</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Hackathon Website- for IEEE SPS VIT & IEEE
+                    WIE VIT (Web Dev)<br>http://www.spsvithackx.com/</td>
+            </tr>
+            <tr>
+                <td>2021</td>
+                <td>Flask Weather App with Calling API</td>
+            </tr>
+            <tr>
+                <td>2021- ongoing</td>
+                <td>Alive - Our Project aims to solve the
+                    current huge problem of Oxygen and
+                    Vaccination due to COVID-19 pandemic.
+                    (Web App Dev+ Database creation +
+                    Backend and storage + ML& DL using
+                    Microsoft Azure | <br>https://youtu.be/uNwJCJb5QhI)
+                    </td>
+            </tr>
+            <tr>
+                <td>2021 - ongoing</td>
+                <td>Relief- IOT Based Integrated Healthcare
+                    System Device (Hardware+ IOT cloud
+                    Platforms+ Flutter App+ MIT App
+                    Inventor) for Old care and all.
+                    </td>
+            </tr>
+            
 
 
         </table></p>
@@ -327,17 +588,25 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
         <ul>
         <b><h2 style="font-size: 35px; text-align: center;">Achievements</h2></b>
        <li> 
-        <p style="text-align: justify;">I am Aalap Bhakta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?Lorem ipsum dolor sit amet </p>
-        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 233, 199); font-size: 22px;">View More......</button></li>
+        <p style="text-align: justify;">HACK NITP 2021 | 2nd Prize (All girls team) | 
+            
+            Project: Donation and Vaccine <button style="border-width: 4px; border: solid;  background-color: rgb(132, 233, 199); font-size: 22px;">View More......</button></p></li>
+       
 <li>
-        <p style="text-align: justify;">I am Aalap Bhakta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?Lorem ipsum dolor sit amet </p>
+        <p style="text-align: justify;">ACCESS DENIED 2021 | 
+            Winner Education Track | 
+            
+            Project: EduVision <button style="border-width: 4px; border: solid;  background-color: rgb(132, 196, 233); font-size: 22px;">View More......</button></p>
         
         
-        <button style="border-width: 4px; border: solid;  background-color: rgb(132, 196, 233); font-size: 22px;">View More......</button></li>
+        </li>
 
         <li>
-        <p style="text-align: justify;">I am Aalap Bhakta. Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, facilis cupiditate tenetur ducimus eaque cumque praesentium debitis mollitia tempore omnis numquam voluptatem architecto voluptatum laboriosam nemo consequuntur eos rerum quia?Lorem ipsum dolor sit amet </p>
-        <button style="border-width: 4px; border: solid;  background-color: rgb(159, 132, 233); font-size: 22px;">View More......</button></li>
+        <p style="text-align: justify;">DoubleSlash 2021 | 
+            7th Prize Winner | 
+            
+            Project: KrishiShayak <button style="border-width: 4px; border: solid;  background-color: rgb(159, 132, 233); font-size: 22px;">View More......</button></p>
+        </li>
 
     </ul>
     </div> 
@@ -345,21 +614,21 @@ used a tag to link the nav bar elements with the body elements for smooth scroll
     <b><h2 id="contact" style="font-size: 35px; text-align: center;">Contact</h2></b>
     <form style="text-align: center; ">  
         
-        <fieldset style="font-size: 25px; border-radius: 20px;background-color: rgb(226, 189, 247);text-align: justify; padding: 60px;">  <img src="photos/aalap2.png" alt="aalap" style="float: right;;">
+        <fieldset style="font-size: 25px; border-radius: 20px;background-color: rgb(226, 189, 247);text-align: justify; padding: 60px;">  <img src="photos/me1.png" alt="aalap" style="float: right;;">
          
        <b><label for="name">Enter name</label><br>  
    <input type="text" id="name" name="name" style="width: 600px;height: 40px;"><br>  
    <label for="name">Enter contact</label><br>  
    <input type="text" id="name" name="name" style="width: 600px;height: 40px;"><br>  
-   <label for="pass">Enter Password</label><br>  
+   <label for="pass">Enter Message</label><br>  
    <input type="Password" id="pass" name="pass" style="width: 600px;height: 40px;"><br>  
-   <input type="submit" value="submit" style="">  </b><br><br><br>
+   <input type="submit" value="submit">  </b><br><br><br>
    <div>
-   <p><b>Email:</b> aalap.bhakta@gmail.com</p>
-   <p><b>Phone no.:</b> 9999999999</p>
-   <p><b>LinkedIn:</b> https://linkedin.........</p>
-   <p><b>Instagram: </b>put ur id here</p>
-   <p><b>GitHub:</b> put ur id here</p></div>
+   <p><b>Email:</b> ananyaghosh00164@gmail.com</p>
+   <p><b>Phone no.:</b> 9163036951</p>
+   <p><b>LinkedIn:</b> https://www.linkedin.com/in/ananya-ghosh-739b561b8</p>
+   <p><b>Instagram: </b>@an_g0001</p>
+   <p><b>GitHub:</b> https://github.com/A-GHOSH-dev</p></div>
    
    </fieldset>  
 </form>  
